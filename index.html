@@ -144,14 +144,14 @@
 	@section Heading 3
 	*/
 		h3{
-			/*@editable*/color:#444444;
+			/*@editable*/color:#FFFFFF;
 			/*@editable*/font-family:Helvetica;
 			/*@editable*/font-size:22px;
 			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:150%;
+			/*@editable*/font-weight:normal;
+			/*@editable*/line-height:200%;
 			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
+			/*@editable*/text-align:center;
 		}
 	/*
 	@tab Page
@@ -291,6 +291,21 @@
 	@tab Footer
 	@section Footer Style
 	*/
+
+  /*@tab LowerBody
+  @section LowerBody Style
+  */
+    #templateLower{
+      /*@editable*/background-color:#004667;
+      /*@editable*/background-image:none;
+      /*@editable*/background-repeat:no-repeat;
+      /*@editable*/background-position:center;
+      /*@editable*/background-size:cover;
+      /*@editable*/border-top:0;
+      /*@editable*/border-bottom:2px solid #EAEAEA;
+      /*@editable*/padding-top:0;
+      /*@editable*/padding-bottom:9px;
+    }
 		#templateFooter{
 			/*@editable*/background-color:#FAFAFA;
 			/*@editable*/background-image:none;
@@ -576,7 +591,6 @@
               <td align="center" valign="top" id="bodyCell">
 
 <!-- BEGIN TEMPLATE // -->
-
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
           <!-- BEGIN PREHEADER // -->
                         <tr>
@@ -606,29 +620,30 @@
                                </td>
                               </tr>
                             </table>
+
 <!-- // END MODULE: STANDARD PREHEADER -->
 
                             </td>
                         </tr>
 <!-- // END PREHEADER -->
 <!-- BEGIN HEADER // -->
-                      <!-- <table> -->
+                    <table>
                         <tr>
                           <td valign="top" id="templateHeader">
-                              <!-- <div mc:edit="header_aca-header"> -->
+                            <div mc:edit="header_aca-header">
 
-                                <!-- BEGIN MODULE: HEADER IMAGE // -->
-                              <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/6b83ab11-1d95-48ef-8884-819117083e0a.png" style="max-width:564px;" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+                          <!-- BEGIN MODULE: HEADER IMAGE // -->
+                              <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/c902e69b-da99-4771-b7ac-8b7d4f1a1fab.png" style="max-width:564px;" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
                                 <!-- // END MODULE: HEADER IMAGE -->
-                            <!-- </div> -->
+                            </div>
                           </td>
                         </tr>
-                    <!-- </table> -->
+                    </table>
 
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
                       <tr>
                         <td valign="top" id="templateHeader">
-                          <div mc:edit="header_laptop">
+                          <div mc:edit="header_collage">
                             <!-- BEGIN MODULE: HEADER IMAGE // -->
                             <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/ae5e33e8-e2aa-40e4-9559-b825e58f1831.png" style="max-width:564px;" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
                             <!-- // END MODULE: HEADER IMAGE -->
@@ -636,7 +651,7 @@
                         </td>
                      </tr>
                    </table>
-                     <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="font-family:helvetica; color:#094665">
+                   <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="font-family:helvetica; color:#094665">
                         <tr>
                           <td valign="top" id="templateBody">
                             <div mc:edit="body_content">
@@ -648,46 +663,44 @@
                           </div>
                         </td>
                       </tr>
-                      </table>
+                    </table>
 
 <!-- // END HEADER -->
 <!-- BEGIN BODY // -->
-          <!-- <table> -->
-          <!-- <tr> -->
-      <td valign="top" id="templateBody">
 
 <!-- BEGIN MODULE: BODY CONTENT // -->
-            <div mc:edit="body_content">
-              <tr>
-                <td align="center" height="100%" valign="top" width="100%" style="padding: 25px 0 50px 0;">
+    <!-- <td valign="top" id="templateLower"> -->
+        <div mc:edit="body_content">
+               <tr>
+                <td align="center" height="100%" valign="top" width="100%" style="padding: 0px 0 50px 0;">
                   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
                     <tr>
-                      <td align="center" valign="top" style="font-size:0;">
+
+
+                      <td align="center" valign="top" style="font-size:0;" id="templateLower">
                         <div style="display:inline-block; max-width:33.3333%; min-width:190px; vertical-align:top; width:100%;" class="mobile-wrapper">
 
                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:190px;" class="max-width">
                                 <tr>
-                                  <td align="center" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; padding-top: 0px;" mc:edit="Feature 1">
+                                  <td align="center" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; padding-top: 25px;" mc:edit="Feature 1">
 
-                                    <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/956463f6-d134-4b93-b8fb-20f062953c8a.jpg" width="125" height="125" border="0" style="display: block;">
+                                    <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/3fee0b6b-9c9a-40e7-9aaa-a248afb794e1.png" width="80" height="80" border="0" style="display: block;">
 
                                       <h3 style="font-size: 18px; line-height: 24px;">More Information</h3>
                                         <p style="color: #999999; font-size: 14px; line-height: 20px;">
-                                        Mandeville carneiro robbins goas ross kelly ragan rodriguez stig jordan hodgekiss merlin yeaman
+                                        Curious to know more about ACA? Check out our website for more information about our courses.
                                         <br><br>
-                                        <a href="https://austincodingacademy.com/" target="_blank" style="text-decoration: none; color: #75b6c9;">Learn more &rarr;</a>
-                                      </p>
-
+                                        <a href="https://austincodingacademy.com/" target="_blank" style="text-decoration: none; color: #75b6c9;">Learn more &rarr;</a></p>
                                   </td>
-                              </tr>
-                          </table>
-                      </div>
+                                </tr>
+                            </table>
+                          </div>
                         <div style="display:inline-block; max-width:33.3333%; min-width:190px; vertical-align:top; width:100%;" class="mobile-wrapper">
                             <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:190px;" class="max-width">
                               <tr>
-                                  <td align="center" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; padding-top: 0px;" mc:edit="Feature 2">
+                                  <td align="center" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; padding-top: 25px;" mc:edit="Feature 2">
 
-                                    <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/2f890114-4421-40b8-8c50-0989524ba0b7.jpg" width="125" height="125" border="0" style="display: block;">
+                                    <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/67f7017f-ea89-4081-85c6-26f1459fd342.png" width="80" height="80" border="0" style="display: block;">
 
                                     <h3 style="font-size: 18px; line-height: 24px;">Free Syllabus</h3>
                                     <p style="color: #999999; font-size: 14px; line-height: 20px;">
@@ -703,9 +716,9 @@
                         <div style="display:inline-block; max-width:33.3333%; min-width:190px; vertical-align:top; width:100%;" class="mobile-wrapper">
                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:190px; float: right;" class="max-width">
                               <tr>
-                                  <td align="center" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; padding-top: 0px;" mc:edit="Feature 3">
+                                  <td align="center" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; padding-top: 25px;" mc:edit="Feature 3">
 
-                                    <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/7d3ca004-f5aa-4aee-a827-2d0d25df239f.jpg" width="125" height="125" border="0" style="display: block;">
+                                    <img src="https://gallery.mailchimp.com/53ae66a1c471915963aec8e6d/images/3939703b-fbb7-44b4-b321-2ceb80bcccc7.png" width="80" height="80" border="0" style="display: block;">
 
                                     <h3 style="font-size: 18px; line-height: 24px;">Campus Tour</h3>
                                     <p style="color: #999999; font-size: 14px; line-height: 20px;">
@@ -713,19 +726,18 @@
                                       <br><br>
                                       <a href="http://austincodingacademy.com" target="_blank" style="text-decoration: none; color: #75b6c9;">Schedule A Tour &rarr;</a>
                                     </p>
-
                                   </td>
-                              </tr>
-                            </table>
-                        </div>
-                    </td>
-                  </tr>
+                                </tr>
+                              </table>
+                            </div>
+                          </td>
+
+
 <!-- // END MODULE: BODY CONTENT -->
 
-                  </td>
-                </tr>
+                <!-- </tr>
               </div>
-            </table>
+            </table> -->
 <!-- // END BODY -->
 <!-- BEGIN FOOTER // -->
                         <tr>
